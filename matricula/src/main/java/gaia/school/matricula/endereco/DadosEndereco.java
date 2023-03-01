@@ -1,4 +1,4 @@
-package gaia.school.matricula.aluno;
+package gaia.school.matricula.endereco;
 
 public record DadosEndereco(String rua,
                             String numero,

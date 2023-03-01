@@ -2,11 +2,12 @@ package gaia.school.matricula.aluno;
 
 import gaia.school.matricula.endereco.DadosEndereco;
 
-public record DadosCadastroAlunos(
+public record DadosAtualizacaoAlunos(
+    long id,
     String nome,
     String email,
-    String idade,
     String telefone,
     Curso curso,
     DadosEndereco endereco) {
+    
 }
